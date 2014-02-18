@@ -1,2 +1,0 @@
-poorichard.github.io
-====================
