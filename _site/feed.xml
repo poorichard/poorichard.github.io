@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Daughter Of Time</title>
+    <description>write someting about programming.
+</description>
+    <link>http://baohulu.me/</link>
+    <atom:link href="http://baohulu.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Feb 2017 15:27:47 +0800</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 15:27:47 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>New Start</title>
+        <description>&lt;p&gt;New Start Test&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Feb 2017 00:00:00 +0800</pubDate>
+        <link>http://baohulu.me/trial/2017/02/08/new_start.html</link>
+        <guid isPermaLink="true">http://baohulu.me/trial/2017/02/08/new_start.html</guid>
+        
+        
+        <category>trial</category>
+        
+      </item>
+    
+      <item>
+        <title>Flask Tips</title>
+        <description>&lt;h2 id=&quot;whats-flask&quot;&gt;What’s Flask&lt;/h2&gt;
+&lt;p&gt;Flask is micro web framework for Python.Follow the guide,can easily bulid a “Hello World” site.&lt;/p&gt;
+
+&lt;h2 id=&quot;run-in-vitrualbox&quot;&gt;Run in vitrualbox&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;change the network setting follow http://reverland.bitbucket.org/VirtualBox_net.html&lt;/li&gt;
+  &lt;li&gt;run the app with host: 0.0.0.0&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2015 00:00:00 +0800</pubDate>
+        <link>http://baohulu.me/trial/2015/04/01/flask_tips.html</link>
+        <guid isPermaLink="true">http://baohulu.me/trial/2015/04/01/flask_tips.html</guid>
+        
+        
+        <category>trial</category>
+        
+      </item>
+    
+      <item>
+        <title>Gradle Tips</title>
+        <description>&lt;h2 id=&quot;whats-gradle&quot;&gt;What’s gradle&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;build tool&lt;/li&gt;
+  &lt;li&gt;combine Ant and Maven features&lt;/li&gt;
+  &lt;li&gt;use Groovy for script language&lt;/li&gt;
+  &lt;li&gt;under JVM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dependencies&quot;&gt;Dependencies&lt;/h2&gt;
+&lt;p&gt;Gradle use maven repositories, the dependencies is under repositories&lt;/p&gt;
+
+&lt;p&gt;```
+repositories {
+    mavenCentral()
+}&lt;/p&gt;
+
+&lt;p&gt;dependencies {
+    compile group: ‘org.hibernate’, name: ‘hibernate-core’, version: ‘3.6.7.Final’
+    testCompile group: ‘junit’, name: ‘junit’, version: ‘4.+’
+}
+```&lt;/p&gt;
+
+&lt;p&gt;So, to search Packages , just use the maven search, like
+http://mvnrepository.com/
+or 
+http://search.maven.org/&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Mar 2015 00:00:00 +0800</pubDate>
+        <link>http://baohulu.me/trial/2015/03/31/gradle_tips.html</link>
+        <guid isPermaLink="true">http://baohulu.me/trial/2015/03/31/gradle_tips.html</guid>
+        
+        
+        <category>trial</category>
+        
+      </item>
+    
+      <item>
+        <title>Try to post something</title>
+        <description>&lt;p&gt;Blogging is a method to measure self.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Feb 2014 03:56:34 +0800</pubDate>
+        <link>http://baohulu.me/trial/2014/02/17/try_to_post_something.html</link>
+        <guid isPermaLink="true">http://baohulu.me/trial/2014/02/17/try_to_post_something.html</guid>
+        
+        
+        <category>trial</category>
+        
+      </item>
+    
+  </channel>
+</rss>
