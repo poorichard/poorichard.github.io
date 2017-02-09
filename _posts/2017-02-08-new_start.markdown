@@ -4,4 +4,4 @@ title: "New Start"
 categories: trial
 ---
 
-New Start Test
+New Start Test 中文

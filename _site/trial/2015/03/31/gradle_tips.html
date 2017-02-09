@@ -10,8 +10,8 @@
   <meta name="description" content="What’s gradle  build tool  combine Ant and Maven features  use Groovy for script language  under JVM">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://baohulu.me/trial/2015/03/31/gradle_tips.html">
-  <link rel="alternate" type="application/rss+xml" title="The Daughter Of Time" href="http://baohulu.me/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/trial/2015/03/31/gradle_tips.html">
+  <link rel="alternate" type="application/rss+xml" title="The Daughter Of Time" href="http://localhost:4000/feed.xml">
 </head>
 
 
@@ -73,16 +73,16 @@
 <h2 id="dependencies">Dependencies</h2>
 <p>Gradle use maven repositories, the dependencies is under repositories</p>
 
-<p>```
-repositories {
+<div class="highlighter-rouge"><pre class="highlight"><code>repositories {
     mavenCentral()
-}</p>
-
-<p>dependencies {
-    compile group: ‘org.hibernate’, name: ‘hibernate-core’, version: ‘3.6.7.Final’
-    testCompile group: ‘junit’, name: ‘junit’, version: ‘4.+’
 }
-```</p>
+
+dependencies {
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.7.Final'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+</code></pre>
+</div>
 
 <p>So, to search Packages , just use the maven search, like
 http://mvnrepository.com/
